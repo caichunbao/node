@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caichunbao/node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caichunbao/node/issues"
+  },
+  "homepage": "https://github.com/caichunbao/node#readme",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.13.0",
+    "koa": "^2.13.1"
+  }
+}
