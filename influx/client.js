@@ -1,8 +1,8 @@
 const {InfluxDB} = require('@influxdata/influxdb-client')
 
 // You can generate a Token from the "Tokens Tab" in the UI
-const token = '4wtAonkhlh85K1O7-jW-DPlLN9KKy2zGndhVUZ02PJiNOTnNauICAMlPEmDC93fvGJlM9rD1LBmIzWpwLPD5bg=='
-const org = '17zy'
+const token = 'token'
+const org = 'org'
 const bucket = 'bucket_name_demo'
 
 const client = new InfluxDB({url: 'http://localhost:8086', token: token})
